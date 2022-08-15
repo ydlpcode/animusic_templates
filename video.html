@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ydlp-anime songs</title>
+    <link rel="stylesheet" href="../../documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../My webpages/github pages/ydlp-css/ydlp.css">
+    <link rel="stylesheet" href="css/video.css">
+    <script>
+        function reload(){
+            window.history.go()
+        }
+        //setInterval(reload, 1000)
+    </script>
+</head>
+<body class="bg-black2 white">
+    <header>
+        <!-- header for pc -->
+        <table id="header_for_desktop">
+            <tr>
+                <td>
+                    <h1>Ydlp-anime songs</h1>
+                </td>
+                <td>
+                    <a href=''>
+                        Página inicial
+                    </a>
+                </td>
+                <td>
+                    <a href=''>Animes</a>
+                </td>
+                <td>
+                    <a href=''>Categorias</a>
+                </td>
+                <td id="searchbar">
+                    <form class="d-flex" role="search">
+                        <input class="bg-black2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <!-- for mobile users -->
+        <nav id="header_for_mobile" class="navbar navbar-expand-lg white">
+            <div class="container-fluid">
+              <span class="navbar-brand white">Ydlp-anime songs</span>
+              <button class="navbar-toggler bg-black4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Página inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Animes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categorias</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn bg-orange" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <article id=''>
+        <section id="playlist_area">
+            <header class="bg-orange black">
+                <p class="c">
+                    <strong>Playlist Naruto</strong>
+                </p>
+            </header>
+            <div class="bg-black3">
+                <a href="" class="text-reset">
+                    <div id="capa" style="background-image: url(img/Captura\ de\ Tela\ \(22\).png);">
+                    </div>
+                    <div id="song-name">
+                        Naruto Ending 1<br/>
+                        Title<br/>
+                        Artista<br/>
+                    </div>  
+                </a>
+            </div>
+        </section>
+        <!-- video area -->
+        <section id='video_area'>
+            <video src="../../videos/Youtube/Ydlp musicas/endings/Naruto/Naruto Ending 1.mp4" controls></video>
+            <nav>
+                <table class="video_controls">
+                    <tr>
+                        <td>
+                            <a href=''>Anterior</a>
+                        </td>
+                        <td>
+                            <a href=''>Download</a>
+                        </td>
+                        <td>
+                            <a href=''>Proximo</a>
+                        </td>
+                    </tr>
+                </table>
+            </nav>
+            <header id="description" class="container">
+                <h2>Naruto ending 1</h2>
+                <hr>
+                <h3>Descrição</h3>
+                <p>
+                    Data de lançamento: 20/10/2000<br/>
+                    Autor (s): <a href="" target="_blank">Desconhecido</a><br/>
+                    Música completa: <a href="" target="_blank">Desconhecido</a><br/>
+                    <hr>
+                    <div class="bg-black4">
+                        <h3>Letra:</h3>
+                        <p class="container"></p>
+                    </div>
+                </p>
+            </header>
+            <hr>
+            <fieldset class="container">
+                <form action="" method="">
+                    <h4>Deixe um comentário</h4>
+                    <textarea class="form-control"></textarea>
+                    <div>
+                        <div class="leftside_form">
+                            <label for="name">
+                                Nome
+                                <div>
+                                    Adicionar nome/pseudónimo
+                                </div>
+                            </label>
+                            <input id='name' placeholder="NatsuDragneel">
+                        </div>
+                        <div class="rightside_form">
+                            <label for="name">
+                                Nome
+                                <div>
+                                    O seu email não será publicado
+                                </div>
+                            </label>
+                            <input type="email" id='name' placeholder="@gmail.com">
+                        </div>
+                    </div>
+                    <br/>
+                    <button type="submit" class="enviar_comment">Publicar comentário</button>
+                </form>
+                <div></div>
+            </fieldset>
+        </section>
+    </article>
+    <footer class="bg-black">
+        <h6 class="c">Ydlpcode &copy; 2022</h6>
+    </footer>
+    <script src="../../Documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

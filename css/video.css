@@ -1,0 +1,144 @@
+a, a:visited{
+    color: var(--yellorange);
+    text-decoration: none;
+}a:hover{
+    color: var(--orange);
+}
+#header_for_desktop{
+  width: 100%;
+  border-bottom: solid 2px var(--black4);
+}
+#header_for_desktop #searchbar{
+    width: 40%;
+}
+input{
+    width: 100%;
+}
+#header_for_desktop input{
+    width: 98%;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+#header_for_mobile{
+    display: none;
+}
+.accordion-item{
+    background-color: var(--black4);
+    border: none;
+}
+.accordion-button{
+    background-color: var(--black4);
+    border: none;
+    color: white;
+}
+#playlist_area{
+    float: right;
+    width: 40%;
+}
+#capa{
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    padding-top: 75px;
+    display: inline-block;
+}
+#capa:hover{
+    background-size: 100px 100px;
+    background-position: -12.5px;
+}
+#song-name{
+    float: right;
+    width: 80%;
+    background-color: var(--black4);
+}
+#video_area{
+    width: 60%;
+    display: inline-block;
+    border-right: groove 2px grey;
+}
+#video_area video{
+    width: 100%;
+}
+#video_area nav{
+    width: 100%;
+}
+.video_controls{
+    width: 100%;
+    text-align: center;
+}
+.video_controls td{
+    border: solid 1px var(--black4);
+}
+.leftside_form, .rightside_form{
+    width: 45%;
+    display: inline-block;
+}
+.rightside_form{
+    margin-left: 9%;
+}
+label div{
+    font-size: 10pt;
+    color: var(--silver);
+}
+fieldset div:empty{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: var(--black3);
+}
+fieldset button{
+    background-color: white;
+    border: none;
+    color: var(--black4);
+    padding: 4px;
+}
+fieldset button:hover{
+    background-color: var(--orange);
+}
+footer{
+    margin-top: 20px;
+    padding: 10px;
+}
+@media screen and (max-width: 481px){
+    a.nav-link, a.nav-link:visited{
+        color: var(--yellorange);
+    }
+    a.nav-link:hover{
+        color: var(--orange);
+    }
+    #header_for_desktop{
+        display: none;
+    }
+    #header_for_mobile{
+        display: block;
+    }
+    #header_for_mobile input{
+        width: 100%;
+        background: none;
+        border: none;
+        color: white;
+    }
+    #playlist_area{
+        display: none;
+    }
+    #video_area{
+        width: 100%;
+        display: inline-block;
+        border-right: groove 2px grey;
+    }
+    .leftside_form, .rightside_form{
+        width: 100%;
+    }
+    .rightside_form{
+        margin-left: 0%;
+    }
+    fieldset button{
+        background-color: var(--black4);
+        border: none;
+        color: var(--white);
+        padding: 4px;
+    }
+    fieldset button:hover{
+        background-color: var(--black4);
+    }
+}

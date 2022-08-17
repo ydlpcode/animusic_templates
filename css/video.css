@@ -26,6 +26,9 @@
 #video_area iframe{
     width: 100%;
 }
+#video_area video{
+    width: 100%;
+}
 #video_area nav{
     width: 100%;
 }

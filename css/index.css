@@ -1,0 +1,61 @@
+article{
+    margin-top: 10px;
+}
+article h3{
+    font-size: 14pt;
+}
+.hr-black{
+    padding: 10px;
+    background-color: var(--black4);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.carousel{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.carousel img{
+    width: 60%;
+    height: 300px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+#recentes table{
+    width: 98%;
+    margin: 1%;
+    border-bottom: solid grey;
+}
+#recentes td{
+    width: 60%;
+}
+#recentes .img{
+    width: 40%;
+    height: 250px;
+}
+#recentes img{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 481px){
+    .carousel{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .carousel img{
+        width: 60%;
+        height: 200px;
+        display: inline-block;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    #recentes td{
+        width: 60%;
+    }
+    #recentes .img{
+        width: 40%;
+        height: 100px;
+    }
+}

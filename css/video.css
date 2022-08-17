@@ -1,37 +1,3 @@
-a, a:visited{
-    color: var(--yellorange);
-    text-decoration: none;
-}a:hover{
-    color: var(--orange);
-}
-#header_for_desktop{
-  width: 100%;
-  border-bottom: solid 2px var(--black4);
-}
-#header_for_desktop #searchbar{
-    width: 40%;
-}
-input{
-    width: 100%;
-}
-#header_for_desktop input{
-    width: 98%;
-    color: white;
-    border: none;
-    padding: 10px;
-}
-#header_for_mobile{
-    display: none;
-}
-.accordion-item{
-    background-color: var(--black4);
-    border: none;
-}
-.accordion-button{
-    background-color: var(--black4);
-    border: none;
-    color: white;
-}
 #playlist_area{
     float: right;
     width: 40%;
@@ -57,7 +23,7 @@ input{
     display: inline-block;
     border-right: groove 2px grey;
 }
-#video_area video{
+#video_area iframe{
     width: 100%;
 }
 #video_area nav{
@@ -95,10 +61,6 @@ fieldset button{
 fieldset button:hover{
     background-color: var(--orange);
 }
-footer{
-    margin-top: 20px;
-    padding: 10px;
-}
 @media screen and (max-width: 481px){
     a.nav-link, a.nav-link:visited{
         color: var(--yellorange);
@@ -119,7 +81,9 @@ footer{
         color: white;
     }
     #playlist_area{
-        display: none;
+        display: block;
+        width: 100%;
+        margin-top: 10px;
     }
     #video_area{
         width: 100%;

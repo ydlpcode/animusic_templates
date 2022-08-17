@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animusic</title>
+    <link rel="stylesheet" href="../../documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../My webpages/github pages/ydlp-css/ydlp.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        function reload(){
+            window.history.go()
+        }
+        //setInterval(reload, 1000)
+    </script>
+</head>
+<body>
+    <header>
+        <!-- header for pc -->
+        <table id="header_for_desktop">
+            <tr>
+                <td id="logo">
+                    <h1>Animusic</h1>
+                </td>
+                <td>
+                    <a href='index.html'>
+                        Página inicial
+                    </a>
+                </td>
+                <td>
+                    <a href='animes.html'>Animes</a>
+                </td>
+                <td>
+                    <a href='singers.html'>Cantores</a>
+                </td>
+                <td id="searchbar">
+                    <form class="d-flex" role="search">
+                        <input class="bg-black2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <!-- for mobile users -->
+        <nav id="header_for_mobile" class="navbar navbar-expand-lg white">
+            <div class="container-fluid">
+              <span class="navbar-brand text-reset">Animusic</span>
+              <button class="navbar-toggler bg-black4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Página inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="animes.html">Animes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="singers.html">Cantores</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn bg-orange" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <article id=''>
+        <!-- lista de playlists -->
+        <section>
+            <h3>Name of Playlist (Anime name/Singer Name)</h3>
+            <h4 class="bg-black4">Openings & endings</h4>
+            <div class="container">
+                <a href="video.html">Song name</a> opening 1 | views: 0 | musicas: 0<hr>
+                <a href="video.html">Song name</a> ending 1| views: 0 | musicas: 0<hr>
+                <a href="video.html">Song name</a> opening 1 | views: 0 | musicas: 0<hr>
+                <a href="video.html">Song name</a> ending 1| views: 0 | musicas: 0<hr>
+                <a href="video.html">Song name</a> opening 1 | views: 0 | musicas: 0<hr>
+                <a href="video.html">Song name</a> ending 1| views: 0 | musicas: 0<hr>
+            </div>
+            <div class="c">
+                <a href="" class="btn">Anterior</a>
+                <a href='' class="btn">1</a>
+                <a href='' class="btn">2</a>
+                <a href='' class="btn">3</a>
+                <a href="" class="btn">Proximo</a>
+            </div>
+        </section>
+    </article>
+    <footer class="bg-black">
+        <h6 class="c"><a href='ydlpcode.herokuapp.com' class="text-reset">Ydlpcode &copy; 2022</a></h6>
+    </footer>
+    <script src="../../Documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

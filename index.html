@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animusic</title>
+    <link rel="stylesheet" href="../../documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../My webpages/github pages/ydlp-css/ydlp.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        function reload(){
+            window.history.go()
+        }
+        //setInterval(reload, 1000)
+    </script>
+</head>
+<body>
+    <header>
+        <!-- header for pc -->
+        <table id="header_for_desktop">
+            <tr>
+                <td id="logo">
+                    <h1>Animusic</h1>
+                </td>
+                <td>
+                    <a href='index.html'>Página inicial</a>
+                </td>
+                <td>
+                    <a href='animes.html'>Animes</a>
+                </td>
+                <td>
+                    <a href='singers.html'>Cantores</a>
+                </td>
+                <td id="searchbar">
+                    <form class="d-flex" role="search">
+                        <input class="bg-black2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <!-- for mobile users -->
+        <nav id="header_for_mobile" class="navbar navbar-expand-lg white">
+            <div class="container-fluid">
+              <span class="navbar-brand text-reset">Animusic</span>
+              <button class="navbar-toggler bg-black4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Página inicial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="animes.html">Animes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="singers.html">Cantores</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn bg-orange" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <article id=''>
+        <!-- mais assistidos -->
+        <section>
+            <h3>Mais assistidos</h3>
+            <div class="hr-black"></div>
+            <div id="mais-assistidos" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="video.html"><img src="img/Captura de Tela (22).png" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="video.html"><img src="img/Captura de Tela (22).png" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="video.html"><img src="img/Captura de Tela (22).png" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="video.html"><img src="img/Captura de Tela (22).png" alt="..."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="video.html"><img src="img/Captura de Tela (22).png" alt="..."></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mais-assistidos" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mais-assistidos" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="hr-black"></div>
+        </section>
+        <!-- mais assistidos -->
+        <section>
+            <h3>Adicionados recentemente</h3>
+            <div class="hr-black"></div>
+            <div id="recentes">
+                <table>
+                    <tr>
+                        <td class="img" rowspan="3"><img src="img/Captura de Tela (22).png" alt="..."></td>
+                        <td><a href='video.html' class="text-reset">Anime name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4"><a href='video.html' class="text-reset">Song name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4">Views: 0</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="img" rowspan="3"><img src="img/Captura de Tela (22).png" alt="..."></td>
+                        <td><a href='video.html' class="text-reset">Anime name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4"><a href='video.html' class="text-reset">Song name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4">Views: 0</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="img" rowspan="3"><img src="img/Captura de Tela (22).png" alt="..."></td>
+                        <td><a href='video.html' class="text-reset">Anime name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4"><a href='video.html' class="text-reset">Song name</a></td>
+                    </tr>
+                    <tr>
+                        <td class="white4">Views: 0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="hr-black"></div>
+        </section>
+    </article>
+    <footer class="bg-black">
+        <h6 class="c"><a href='ydlpcode.herokuapp.com' class="text-reset">Ydlpcode &copy; 2022</a></h6>
+    </footer>
+    <script src="../../Documents/Books/fullstack python (web development)/Bootstrap/versao compilada/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
